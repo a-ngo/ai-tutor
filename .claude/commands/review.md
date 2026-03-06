@@ -2,8 +2,11 @@ Review and score my most recent quiz answers.
 
 Steps:
 
-1. Find the latest quiz file in `quizzes/` that doesn't have a review yet
-2. Read my answers from the quiz file
+1. List all files in `quizzes/`. For each `session-NNN.md`, check if a
+   corresponding `session-NNN-review.md` exists. If every quiz already has a
+   review, respond with "All quizzes have been reviewed. Run /quiz to generate
+   a new one." and STOP — do not read any files or do anything else.
+2. Otherwise, take the latest unreviewed quiz file and read my answers from it
 3. Score each answer 0-10 with detailed feedback:
    - What was correct
    - What was missing or wrong
