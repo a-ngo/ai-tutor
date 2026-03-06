@@ -1,6 +1,6 @@
 ## AI Tutor
 
-Use claude code as an ai tutor.
+A personal AI tutor powered by Claude Code. It uses adaptive quizzing with spaced repetition to help you systematically master the specified topics, adjusting question difficulty to your skill level, tracking progress across sessions, and giving honest, detailed feedback on every answer. Just clone the repo, customize the topic list to your goals, and start quizzing. No app, no setup, just your terminal and a structured path from beginner to job-ready.
 
 ## Start learning
 
